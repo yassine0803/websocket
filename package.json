@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/yassine0803/websocket/issues"
   },
-  "homepage": "https://github.com/yassine0803/websocket#readme"
+  "homepage": "https://github.com/yassine0803/websocket#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }

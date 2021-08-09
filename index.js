@@ -18,5 +18,5 @@ app.use(express.static('public'));
 const io = new Server(server);
 
 io.on('connection',(socket)=>{
-    console.log('socket connection');
+    console.log('socket connection', socket.id);
 });
